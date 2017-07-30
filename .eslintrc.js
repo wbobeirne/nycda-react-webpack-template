@@ -148,7 +148,7 @@ if (hasBabel) {
 		"prefer-destructuring": [SEV2, { object: true }],
 		"prefer-rest-params": hasBabel ? SEV2 : "off",
 
-		"import/no-unresolved": SEV1,
+		"import/no-unresolved": [SEV1, { caseSensitive: false }],
 		"import/named": SEV1,
 		"import/default": SEV1,
 		"import/no-absolute-path": SEV1,
