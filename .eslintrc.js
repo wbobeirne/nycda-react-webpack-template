@@ -179,8 +179,11 @@ if (hasReact) {
 		"react/jsx-pascal-case": SEV2,
 		"react/jsx-wrap-multilines": SEV2,
 		"react/self-closing-comp": SEV2,
+		"react/default-props-match-prop-types": SEV2,
+		"react/prop-types": SEV2,
 
 		"react/jsx-closing-bracket-location": SEV3,
+		"react/jsx-indent-props": [SEV3, tabsOrSpaces],
 	});
 }
 
